@@ -1,7 +1,9 @@
 # The Milk Powder Project
 
 **Authors:** Bea Cooke, Wenting Gu, Holly Sutcliffe, Christopher Won
+
 **Institution:** University of Auckland — MATHS 399
+
 **Reference:** MINZ Paper (Austral. Mathematical Soc., 2018)
 
 ## Overview
