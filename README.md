@@ -1,7 +1,7 @@
 <h1 align="center">The Milk Powder Project</h1>
 
 <p align="center">
-  <em>This project attempts to have a better understanding on whether we can predict how long milk powder can be stored in elevated environmental settings. A heat diffusion model of a single 25 kg bag.</em>
+  <em>This project is about a heat diffusion model of a single 25 kg bag.</em>
 </p>
 
 <p align="center">
