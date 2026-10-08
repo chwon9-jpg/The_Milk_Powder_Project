@@ -115,6 +115,8 @@ To test the model on something realistic, we follow one bag shipped from Aucklan
 - **Initial profile.** Setting the flux and the 5 °C base temperature gives a steady state that falls linearly through the bag: `u(x) = (ω/δ)(0.130 − x) + p`, running from about 10 °C at the surface to 5 °C.
 - **Making it realistic.** Heat rarely travels in a perfect line, so a sinusoidal term is added to the linear profile. With insulated ends, this profile settles at about **7.5 °C**.
 
+> **Note.** The report's text writes this initial profile as `u(0,x) = 8 + cos(x) − 0.038x`, but the accompanying R code (and Figures 7 and 8) use `10 + cos(x) − 0.038x`. Only the "10" version produces the quoted 7.52 °C equilibrium, so the figures and the numbers here follow the code.
+
 <table>
   <tr>
     <td align="center" width="33%"><img src="images/fig06_linear_initial_profile.png" alt="Linear steady state temperature profile from 10 to 5 degrees"></td>
