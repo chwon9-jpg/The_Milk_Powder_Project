@@ -20,7 +20,7 @@
 
 ---
 
-## The Question
+## Problem
 
 This project was inspired by a question posed in the MINZ study (Chopovda et al., 2018): *"Can we predict how long we can store milk powders, especially in elevated temperatures and humidities?"*
 
@@ -32,7 +32,7 @@ The MINZ baseline is milk powder stored at 25 °C with water activity a<sub>w</s
   <img src="images/viz_shelf_life_budget.png" alt="Bar showing 770 day predicted shelf life split into one year of supply chain and about 405 days for the consumer" width="90%">
 </p>
 
-## Why Temperature Matters
+## Temperature Matters
 
 Two things go wrong when the powder gets too warm:
 
@@ -45,7 +45,7 @@ The danger is also uneven: the surface of a bag can sit at a very different temp
   <img src="images/viz_temperature_landmarks.png" alt="Temperature scale from 5 to 50 degrees Celsius marking the Auckland storage temperatures, the 23 and 25 degree reference points, the 40 degree heat source and the 50 degree glass transition" width="95%">
 </p>
 
-## The Model
+## Model
 
 We use the **1D homogeneous heat diffusion equation** (Olver, 2014):
 
@@ -168,7 +168,7 @@ All models were implemented numerically using **R** (Fourier series solutions, 5
 
 | File | Description |
 |---|---|
-| [`The Milk Powder Project.pdf`](report.pdf) | Full project report with derivations, figures, and R/MATLAB code |
+| [`report.pdf`](report.pdf) | Full project report with derivations, figures, and R/MATLAB code |
 | [`images/`](images) | Figures from the report and illustrations generated from its model, used in this README |
 
 ## References
