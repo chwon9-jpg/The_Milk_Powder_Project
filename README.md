@@ -1,7 +1,7 @@
 <h1 align="center">The Milk Powder Project</h1>
 
 <p align="center">
-  <em>Can we predict how long milk powder keeps when it is stored hot? A heat diffusion model of a single 25 kg bag.</em>
+  <em>This project attempts to have a better understanding on whether we can predict how long milk powder can be stored in elevated environmental settings. A heat diffusion model of a single 25 kg bag.</em>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 **Institution:** University of Auckland, MATHS 399
 
-**Quick links:** [Full report (PDF)](The%20Milk%20Powder%20Project.pdf) · [The model](#the-model) · [Scenarios](#three-scenarios) · [Key findings](#key-findings) · [Implementation](#implementation)
+**Quick links:** [Full report (PDF)](report.pdf) · [The model](#the-model) · [Scenarios](#three-scenarios) · [Key findings](#key-findings) · [Implementation](#implementation)
 
 ---
 
@@ -162,13 +162,13 @@ The MINZ data show two moments that matter for the powder:
 
 ## Implementation
 
-All models were implemented numerically using **R** (Fourier series solutions, 50 term approximations) and **MATLAB** (3D surface plots via `pdepe`). The code is included in the appendix of the [report](The%20Milk%20Powder%20Project.pdf).
+All models were implemented numerically using **R** (Fourier series solutions, 50 term approximations) and **MATLAB** (3D surface plots via `pdepe`). The code is included in the appendix of the [report](report.pdf).
 
 ## Repository Contents
 
 | File | Description |
 |---|---|
-| [`The Milk Powder Project.pdf`](The%20Milk%20Powder%20Project.pdf) | Full project report with derivations, figures, and R/MATLAB code |
+| [`The Milk Powder Project.pdf`](report.pdf) | Full project report with derivations, figures, and R/MATLAB code |
 | [`images/`](images) | Figures from the report and illustrations generated from its model, used in this README |
 
 ## References
